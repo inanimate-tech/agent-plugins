@@ -17,7 +17,8 @@ In Claude Code:
 - **resident** — Skills for building, debugging, and extending Resident ESP32
   sandbox devices.
   Source: [`inanimate-tech/resident`](https://github.com/inanimate-tech/resident/tree/main/tools/agent-plugin)
-  (tracks `main`)
+  at `tools/agent-plugin`, tracks `main`. Cloned via SSH, so installers need
+  `git@github.com` SSH access to that repo (currently private).
 
 ## Layout
 
