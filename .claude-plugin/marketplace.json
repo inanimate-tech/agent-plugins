@@ -1,0 +1,23 @@
+{
+  "name": "inanimate",
+  "owner": {
+    "name": "Inanimate"
+  },
+  "metadata": {
+    "description": "Public agent plugins and skills for Inanimate developer tools and devices."
+  },
+  "plugins": [
+    {
+      "name": "resident",
+      "description": "Skills for building, debugging, and extending Resident ESP32 sandbox devices.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/inanimate-tech/resident.git",
+        "path": "tools/agent-plugin",
+        "ref": "main"
+      },
+      "category": "Embedded",
+      "tags": ["esp32", "arduino", "esp-idf", "agents", "iot"]
+    }
+  ]
+}
