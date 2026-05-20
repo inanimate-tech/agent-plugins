@@ -12,7 +12,7 @@
       "description": "Skills for building, debugging, and extending Resident ESP32 sandbox devices.",
       "source": {
         "source": "git-subdir",
-        "url": "git@github.com:inanimate-tech/resident.git",
+        "url": "https://github.com/inanimate-tech/resident.git",
         "path": "tools/agent-plugin",
         "ref": "main"
       },

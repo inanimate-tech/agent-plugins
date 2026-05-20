@@ -17,8 +17,7 @@ In Claude Code:
 - **resident** — Skills for building, debugging, and extending Resident ESP32
   sandbox devices.
   Source: [`inanimate-tech/resident`](https://github.com/inanimate-tech/resident/tree/main/tools/agent-plugin)
-  at `tools/agent-plugin`, tracks `main`. Cloned via SSH, so installers need
-  `git@github.com` SSH access to that repo (currently private).
+  at `tools/agent-plugin`, tracks `main`.
 
 ## Layout
 
@@ -28,11 +27,9 @@ In Claude Code:
 ```
 
 Each plugin lives in its own product/system repo under `tools/agent-plugin/`
-and is referenced from this marketplace via `git-subdir`. Skills are the
-portable centre of gravity; tool-specific manifests are thin wrappers.
+and is referenced from this marketplace via `git-subdir`.
 
-Cross-tool support (e.g. Codex) will be added by mirroring `marketplace.json`
-under sibling directories like `.agents/plugins/` once those formats stabilise.
+Cross-tool support (e.g. Codex) is planned.
 
 ## Related
 
