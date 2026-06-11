@@ -10,12 +10,7 @@
     {
       "name": "resident",
       "description": "Skills for building, debugging, and extending Resident ESP32 sandbox devices.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/inanimate-tech/resident.git",
-        "path": "tools/agent-plugin",
-        "ref": "main"
-      },
+      "source": "./plugins/resident",
       "category": "Embedded",
       "tags": ["esp32", "arduino", "esp-idf", "agents", "iot"]
     }

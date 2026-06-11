@@ -15,19 +15,21 @@ In Claude Code:
 ## Plugins
 
 - **resident** — Skills for building, debugging, and extending Resident ESP32
-  sandbox devices.
-  Source: [`inanimate-tech/resident`](https://github.com/inanimate-tech/resident/tree/main/tools/agent-plugin)
-  at `tools/agent-plugin`, tracks `main`.
+  sandbox devices, at [`plugins/resident/`](plugins/resident/). For the
+  Resident platform itself, see
+  [`inanimate-tech/resident`](https://github.com/inanimate-tech/resident).
 
 ## Layout
 
 ```
 .claude-plugin/
 └── marketplace.json   # Claude Code marketplace catalog (name: inanimate)
+plugins/
+└── resident/          # One subdir per plugin
 ```
 
-Each plugin lives in its own product/system repo under `tools/agent-plugin/`
-and is referenced from this marketplace via `git-subdir`.
+Plugins live in this repo under `plugins/` and are referenced from the
+marketplace catalog by relative path.
 
 Cross-tool support (e.g. Codex) is planned.
 
